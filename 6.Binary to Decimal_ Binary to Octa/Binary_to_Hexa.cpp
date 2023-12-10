@@ -13,7 +13,7 @@ int main() {
 
         // Convert the remainder to hexadecimal
         char hexDigit;
-        if (rem < 10) {
+        if (rem < 10) { 
             hexDigit = rem + '0';
         } else {
             hexDigit = rem - 10 + 'A';
